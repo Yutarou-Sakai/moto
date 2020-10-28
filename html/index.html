@@ -3,14 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <title>トップページ</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
     <header>
-        <div class="header-rogo">rogo</div>
-        <div class="header-search-box">search</div>
+        <div class="header-rogo">
+            <i class="fa-4x fas fa-motorcycle"></i>
+        </div>
+        <div class="header-search-box">
+            <form method="get" action="#" class="search_container">
+                <input type="text" size="25" placeholder="キーワード検索">
+                <input class="fas" type="submit" value="&#xf002;">
+            </form>
+        </div>
         <div class="header-button">
-            <div class="header-rogout">rogin</div>
-            <div class="header-rogin">roguot</div>
+            <button type="button" class="header-rogout btn btn-primary">ログイン</button>
+            <button type="button" class="header-rogin btn btn-secondary">ログアウト</button>
         </div>
         <div class="navbar">nav</div>
     </header>
