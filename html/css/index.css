@@ -1,10 +1,13 @@
 header {
     margin: 10px;
+    width: 90%;
+    margin: 30px auto;
 }
 
 .header-detail {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 1rem;
 }
 
 .header-parts {
@@ -22,9 +25,9 @@ header {
     padding: 3px 10px;
     border-radius: 20px;
     height: 2.2em;
-    width: 150px;
+    width: 200px;
     overflow: hidden;
-    font-size: 0.9rem;
+    font-size: 1rem;
     margin-right: 5px;
 }
 .search_container input[type="text"] {
@@ -50,10 +53,129 @@ header {
 
 .header-rogout,
 .header-rogin {
-    font-size: 0.4rem;
+    font-size: 0.7rem;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.navbar-nav,
+.nav-item {
+    width: 100%;
+}
+
+.nav-item {
+    text-align: center;
+    border: 1px solid;
 }
 
 main {
     width: 90%;
     margin: 0 auto;
+}
+
+main a {
+    text-decoration: none;
+    color: black;
+    text-decoration: underline;
+}
+
+main a:hover {
+    color: #999;
+}
+
+.recommend-article {
+    display: flex;
+    justify-content: space-around;
+}
+
+.recommend-article img {
+    width: 90%;
+}
+
+.category-rist {
+    width: 80%;
+    margin: 50px auto;
+}
+
+.category-rist section {
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+
+.category-article {
+    display: flex;
+    border: 1px solid;
+    margin: 20px 0;
+}
+
+.category-article-img {
+    width: 70%;
+}
+
+.category-article-img img {
+    width: 100%;
+}
+
+.category-article-detail {
+    padding: 20px;
+    position: relative;
+    width: 100%;
+}
+
+.category-article-detail a {
+    text-decoration: none;
+    font-size: 3rem;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+footer {
+    background-color: #ccc;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-size: 1.3rem;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+    text-decoration: underline;
+}
+
+.footer-container {
+    display: flex;
+    width: 80%;
+    margin: 50px auto 70px;
+    justify-content: space-around;
+}
+
+.footer-rogo {
+    width: 50%;
+}
+
+.footer-category {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.footer-category p {
+    width: 50%;
+}
+
+.footer-category-list {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer-category-new-bike {
+    width: 50%;
+    margin-bottom: 30px;
 }
