@@ -3,8 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <title>登録ページ</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="">
 </head>
 <body>
-    Hello World!
+    <header>
+        <div class="header-detail">
+            <div class="header-rogo">
+                <i class="fa-5x fas fa-motorcycle"></i>
+            </div>
+            <div class="header-parts">
+                <div class="header-search-box">
+                    <form method="get" action="#" class="search_container">
+                        <input type="text" size="20" placeholder="キーワード検索">
+                        <input class="fas" type="submit" value="&#xf002;">
+                    </form>
+                </div>
+                <div class="header-button">
+                    <button type="button" class="header-rogout btn btn-primary">ログイン</button>
+                    <button type="button" class="header-rogin btn btn-secondary">ログアウト</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="register-title">
+            <h2>登録</h2>
+        </div>
+        <div class="register-table">
+            <table class="table table-bordered text-center">
+                <tr><th class="table-secondary">メールアドレス</th><td>test@test.com</td></tr>
+                <tr><th class="table-secondary">名前</th><td>test太郎</td></tr>
+            </table>
+        </div>
+        <div class="register-btn">
+            <button type="button" class="header-rogout btn btn-primary">戻る</button>
+            <button type="button" class="header-rogin btn btn-success">登録</button>
+        </div>
+    </main>
 </body>
 </html>
